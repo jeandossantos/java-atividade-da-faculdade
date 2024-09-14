@@ -7,8 +7,6 @@ public class Quadrante {
 
         Scanner sc = new Scanner(System.in);
 
-        List<String> rs = new ArrayList<>();
-
         while (sc.hasNextLine()) {
             String[] xy = sc.nextLine().split(" ");
             int x = Integer.parseInt(xy[0]);
