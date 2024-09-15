@@ -19,6 +19,8 @@ public class TipoDeCombustivel {
             fuelCounts[choice - 1]++; // increment counter for corresponding fuel type
         }
 
+        scanner.close();
+
         System.out.println("MUITO OBRIGADO");
         System.out.println("Álcool: " + fuelCounts[0]);
         System.out.println("Gasolina: " + fuelCounts[1]);

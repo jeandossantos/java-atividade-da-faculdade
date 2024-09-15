@@ -6,6 +6,7 @@ public class MultiplosDe13 {
         int x = scanner.nextInt();
         int y = scanner.nextInt();
 
+        scanner.close();
         if (y < x) {
             int temp = x;
             x = y;
